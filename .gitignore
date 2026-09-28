@@ -1,0 +1,67 @@
+# =============================================================
+# KlaimNexus public portfolio repository
+# Keep implementation, models, datasets, experiments and secrets private.
+# =============================================================
+
+# Core/private implementation
+app.py
+backend/
+src/
+ml_pipeline/
+notebooks/
+models/
+config/
+scripts/
+templates/
+static/
+
+# Data & experiment outputs
+data/
+reports/
+instance/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+*.joblib
+*.pkl
+*.pickle
+*.onnx
+
+# Python environments / caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets.*
+
+# Local tooling / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build / temporary
+build/
+dist/
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,27 @@
+{
+  "note": "Synthetic portfolio example only — not real JKN participant data.",
+  "claimA": {
+    "claim_id": "CLM-DEMO-001",
+    "patient_id": "PAT-0182",
+    "facility": "FAC-DEMO-07",
+    "claim_date": "2026-08-02",
+    "diagnosis": "J18.9",
+    "procedure": ["93.18", "99.21"],
+    "drugs": ["DRG01", "DRG07", "DRG112"],
+    "medical_device": ["DEV02"],
+    "los": 4,
+    "total_amount": 5240000
+  },
+  "claimB": {
+    "claim_id": "CLM-DEMO-002",
+    "patient_id": "PAT-0182",
+    "facility": "FAC-DEMO-07",
+    "claim_date": "2026-08-05",
+    "diagnosis": "J18.9",
+    "procedure": ["93.18", "99.21"],
+    "drugs": ["DRG01", "DRG07"],
+    "medical_device": ["DEV02"],
+    "los": 4,
+    "total_amount": 5180000
+  }
+}
